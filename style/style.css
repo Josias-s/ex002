@@ -36,9 +36,7 @@ header {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.815);
 }
 header > h1{
-    font-family: var(--fonte-destaque);
-    font-size:48px;
-    font-weight: 400;
+    font: 400 48px var(--fonte-destaque);
     padding-top: 40px;
     padding-bottom: 20px;
     
@@ -91,9 +89,7 @@ main p{
 
 
 main h1{
-    font-family: var(--fonte-android);
-    font-size: 28.8px;
-    font-weight: lighter;
+    font:lighter 28.8px var(--fonte-android);
     color:#063d1e;
 }
 article img.pequeno{
@@ -117,9 +113,8 @@ main a:hover{
 }
 h2{
     background-image: linear-gradient(to right,#83e1ad,transparent);
-    font-family: var(--fonte-android);
-    font-size: 1.3em;
-    font-weight: normal;
+    font: normal 1.3em var(--fonte-android);
+   
     color: var(--cor4);
     text-indent: 8px;
 }
